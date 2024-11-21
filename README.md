@@ -72,7 +72,9 @@ Este desafio foi fortemente inspirado no desafio do Frontendmentor, disponível 
 
 ### Divirta-se! :rocket:
 
-Style Guide:
+---
+
+### Style Guide:
 - Font: roboto
 - Background Color: #2C3E50
 - yellow: #F1C40F
