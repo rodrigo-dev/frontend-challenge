@@ -44,6 +44,11 @@ Recursos que podem ser utilizados para realizar a implementação:
 - Implementar alguma forma de deploy
 - Persistência (pode ser em localStorage, ou firebase e afins)
 - Chamadas HTTP para server
+- Adicionar funcionalidade multiplayer utilizando sockets
+    - Criar salas de jogo para dois jogadores competirem em tempo real
+    - Exibir o status da sala e permitir que jogadores aguardem adversários
+    - Mostrar o placar compartilhado entre os dois jogadores
+    - Utilizar bibliotecas como Socket.IO ou WebSockets nativo
 
 ## Como entregar
 A entrega será através de um fork, então você deve:
