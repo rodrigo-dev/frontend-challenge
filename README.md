@@ -15,6 +15,17 @@ As regras do jogo são:
 - Placar do jogador
 - Possibilidade de selecionar sua própria jogada
 - Utilizar uma jogada aleatória por parte do desafiante
+  - Este desafiante deve ser um bot
+  - O bot deve ter uma inteligência básica, ou seja, ele deve escolher uma jogada aleatória
+- Exibir o resultado do jogo
+
+## Multiplayer (extra)
+Implemente primeiro a versão singleplayer e depois a multiplayer, a versão multiplayer é um requisito extra, por isso a organização do código é importante, para que seja possível implementar a versão multiplayer, com poucas alterações no código singleplayer.
+
+- Criar salas de jogo para dois jogadores competirem em tempo real
+- Exibir o status da sala e permitir que jogadores aguardem adversários
+- Mostrar o placar compartilhado entre os dois jogadores
+- Utilizar bibliotecas como Socket.IO ou WebSockets nativo
 
 ## :heavy_exclamation_mark: Como deve estar implementado
 Requisitos obrigatórios de implementação:
@@ -45,10 +56,6 @@ Recursos que podem ser utilizados para realizar a implementação:
 - Persistência (pode ser em localStorage, ou firebase e afins)
 - Chamadas HTTP para server
 - Adicionar funcionalidade multiplayer utilizando sockets
-    - Criar salas de jogo para dois jogadores competirem em tempo real
-    - Exibir o status da sala e permitir que jogadores aguardem adversários
-    - Mostrar o placar compartilhado entre os dois jogadores
-    - Utilizar bibliotecas como Socket.IO ou WebSockets nativo
 
 ## Como entregar
 A entrega será através de um fork, então você deve:
