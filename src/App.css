@@ -1,0 +1,27 @@
+body{
+background-color: #2C3E50;
+}
+.play-area{
+  display: flex;
+  background-color: none;
+  margin-left: 15rem;
+  justify-content: space-around;
+  height: 20rem;
+  background-color: red;
+
+  button{
+    border-radius: 10rem;
+    width: 15rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  button:hover{
+    height: 20rem;
+    transition: ease 50s;
+  }
+  
+  button:nth-child(2){
+    margin-top: 10rem;
+  }
+}
