@@ -20,7 +20,7 @@
 }
 
 .player img {
-    width: 45%;
+    width: 25%;
     height: 45%;
 }
 
@@ -34,19 +34,27 @@
 
 .triangle .tl {
     position: absolute;
-    left: 18%;
+    left: -1rem;
     top: 20%
+}
+
+@media screen and (min-width: 1300px) {
+    .triangle .tl {
+    position: absolute;
+    left: 1rem;
+    top: 20%
+}
 }
 
 .triangle .tr {
     position: absolute;
-    right: 18%;
+    right: -1.5rem;
     top: 20%
 }
 
 .triangle .bc {
     position: absolute;
-    left: 50%;
+    left: 1rem;
     transform: translateX(-50%);
-    bottom: 8%
+    bottom: 15%
 }
