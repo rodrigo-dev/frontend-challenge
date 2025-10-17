@@ -1,5 +1,5 @@
+import type { FunctionComponent, SVGProps } from 'react';
 import type { Move } from "./Feedback.interface";
-
 
 export interface IChoosingArea {
   playerChoice: string;
@@ -9,7 +9,7 @@ export interface IChoosingArea {
 }
 
 export interface ChoosingAreaProps {
-  playerIcon?: string
+  playerIcon?: string | FunctionComponent<SVGProps<SVGSVGElement>>
   playerColor?: string
   onRoundEnd?: (machineChoice: Move) => void
   onPlayAgain?: () => void

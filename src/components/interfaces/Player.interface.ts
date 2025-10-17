@@ -1,7 +1,7 @@
-import type { MouseEventHandler } from 'react';
+import type { MouseEventHandler, FunctionComponent, SVGProps } from 'react';
 
 export interface IPlayer {
-  icon: string;
+  icon: string | FunctionComponent<SVGProps<SVGSVGElement>>;
   label?: string;
   color: string;
   size?: number;
