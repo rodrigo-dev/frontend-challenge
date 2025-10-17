@@ -1,27 +1,53 @@
-body{
-background-color: #2C3E50;
+body {
+  background-color: #2C3E50;
 }
-.play-area{
-  display: flex;
-  background-color: none;
-  margin-left: 15rem;
-  justify-content: space-around;
-  height: 20rem;
-  background-color: red;
 
-  button{
+.play-area {
+  display: flex;
+  margin-left: 1rem;
+  height: 40rem;
+  justify-content: space-around;
+
+  .play-button {
     border-radius: 10rem;
     width: 15rem;
     height: 10rem;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
   }
-  button:hover{
-    height: 20rem;
-    transition: ease 50s;
-  }
-  
-  button:nth-child(2){
+
+  .play-button:nth-child(2) {
     margin-top: 10rem;
+  }
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30rem;
+  height: 6rem;
+  margin-left: 30rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: #2C3E50;
+}
+
+.score-label {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.screen {
+  font-size: 3rem;
+  margin-top: -0.5rem;
+  margin-left: 15rem;
+}
+@media screen and (max-width: 1770px) {
+   .screen{
+    margin-left: -25rem;
   }
 }

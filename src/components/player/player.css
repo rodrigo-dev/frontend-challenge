@@ -1,0 +1,52 @@
+.player {
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.player .inner {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid var(--ring);
+    box-shadow: inset 0 8px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: border-color 0.3s ease;
+}
+
+.player img {
+    width: 45%;
+    height: 45%;
+}
+
+.triangle {
+    position: relative;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 520px
+}
+
+.triangle .tl {
+    position: absolute;
+    left: 18%;
+    top: 20%
+}
+
+.triangle .tr {
+    position: absolute;
+    right: 18%;
+    top: 20%
+}
+
+.triangle .bc {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 8%
+}
